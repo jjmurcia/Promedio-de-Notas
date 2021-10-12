@@ -1,8 +1,17 @@
+body {
+    background: papayawhip;
+}
+
 table {
     max-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-top: 8rem;
+}
+
+.article {
+    margin-top: 2rem;
 }
 
 div {
@@ -62,4 +71,26 @@ button:active:after {
     margin: 0;
     opacity: 1;
     transition: 0s
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin-top: 10px;
+}
+
+a:hover {
+    font-size: 50px;
+    color: rgb(148, 23, 23);
+    margin-top: 10px;
+}
+
+td {
+    font-size: 2rem;
+}
+
+input {
+    margin-left: 100px;
+    font-size: 20px;
 }

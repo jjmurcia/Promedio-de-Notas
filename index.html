@@ -10,7 +10,12 @@
 </head>
 
 <body>
+
     <table id="tabla">
+        <tr>
+            <td>Identificacion</td>
+            <td><input type="number" id="identificacion" placeholder="Documento" maxlength="10"> </td>
+        </tr>
         <tr>
             <td>Nombre</td>
             <td><input type="text" id="nombre"></td>
@@ -28,15 +33,13 @@
             <td><input type="text" id="nota3"></td>
         </tr>
     </table>
-    <div>
+    <div class="article">
         <button type="button" autofocus onclick="promedio();">Calcular</button>
         <button id="saveDataBtn">Guardar</button>
     </div>
     <div>
         <a href="consultarData.html">Ir a consultar</a>
     </div>
-
-
     <script src="js/index.js">
     </script>
 </body>
